@@ -1,0 +1,77 @@
+.bara_sus_colorata{
+    background-color: #900603;
+    height: 30px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+header, nav {
+    text-align: center;
+    background: #343434;
+    top: 30px;
+    left: 0;
+    width: 100vw;
+    padding: 20px;
+    position: fixed;
+}
+  
+nav a {    
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    padding: 3px 30px;
+    
+}
+
+nav a:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+.image_bg{
+    height: 45%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titlu{
+    margin-top: 50px;
+}
+
+.descriere{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.titlu_catan{
+    text-align: center;
+    margin-top: 20px;
+}
+
+th, td, tr{
+    padding: 40px;
+  }
+
+input[type="text"], select, textarea{
+    width: 98%;
+    padding: 12px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.container{
+    margin-top: 130px;
+    margin-left: 10px;
+}
